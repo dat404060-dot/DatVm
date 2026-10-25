@@ -1,6 +1,6 @@
 name: Build DatVM APK
 
-on:
+'on':
 workflow_dispatch:
 push:
 branches:
@@ -24,4 +24,3 @@ uses: actions/checkout@v4
 
   - name: Build APK
     run: gradle assembleDebug
-    
